@@ -347,6 +347,37 @@ h1 {
 
 }
 
+footer {
+    background: #221E42;
+    color: white;
+    padding-top: 100px;
+}
+
+footer .card {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-footer {
+    width: 300px;
+    
+}
+
+.card-contato {
+    display: flex;
+    align-items: center;
+    gap: 20px ;
+}
+
+
+
+.card-contato .card-dois {
+    display: flex;
+    background-color: red;
+}
+
+
+
 
 @media screen and (max-width: 1100px) {
     .container-dois {
