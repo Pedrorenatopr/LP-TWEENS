@@ -253,6 +253,46 @@ h1 {
     width: 350px;
 }
 
+.container-sobre {
+    display: grid;
+    justify-content: center;
+    background-color: #F3F2F0;
+    margin-top: 100px;
+
+}
+
+.sobre .card  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1150px;
+
+}
+
+.sobre .card .texto {
+    width: 500px;
+}
+
+
+.sobre .card .img {
+    width: 500px;
+}
+
+.sobre .card .img img {
+    width: 500px;
+}
+
+
+.sobre .card .texto p {
+    color: #000;
+    font-size: 31.945px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 51.112px */
+}
+
+
+
 @media screen and (max-width: 1100px) {
     .container-dois {
         padding-bottom: 50px;
