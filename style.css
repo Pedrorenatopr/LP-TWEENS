@@ -282,13 +282,32 @@ h1 {
     width: 500px;
 }
 
+.container-sobre .sobre .card .texto h3 {
+    color: #FF7A00;
+}
 
-.sobre .card .texto p {
+
+.texto-sobre {
     color: #000;
     font-size: 31.945px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 51.112px */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bt-sobre {    
+    color: white;
+    background: #221E42;
+    display: inline-flex;
+    height: 56px;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 5px;
 }
 
 
@@ -309,7 +328,8 @@ h1 {
     .container-sobre {
         display: grid;
         justify-content: center;
-        margin-top: 100px;    
+        margin-top: 100px; 
+        padding-top: 50px;   
     }
     
     .sobre .card  {
@@ -332,7 +352,7 @@ h1 {
     }
     
     
-    .sobre .card .texto p {
+    .texto-sobre {
         color: #000;
         font-size: 31.945px;
         font-style: normal;
@@ -567,7 +587,7 @@ h1 {
     }
     
     
-    .sobre .card .texto p {
+    .texto-sobre {
         color: #000;
         font-size: 31.945px;
         font-style: normal;
@@ -612,6 +632,15 @@ h1 {
 
     .img-mobile {
         display: none;
+    }
+
+    .sobre .card {
+        gap: 50px;
+    }
+
+    .texto-sobre {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
