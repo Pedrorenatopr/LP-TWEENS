@@ -626,6 +626,10 @@ h1 {
         height: 100px;
     }
 
+    .container-dois {
+        margin-bottom: 50px;
+    }
+
     .container-produtos .produtos .card img {
         width: 150px;
     }
