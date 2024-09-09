@@ -380,6 +380,83 @@ h1 {
     .bt-transparent {
         display: none;
     }
+
+
+    .container-dois {
+        background-image: url(fundo-floral.png);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        padding-bottom: 200px;
+        margin-bottom: 100px;
+    }
+
+    .box-dois {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .box-dois .card {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .box-dois .card h2 {
+        padding-top: 70px;
+        font-size: 70px;
+        margin-top: 0px;
+        width: 700px;
+        padding-top: 50px;
+        height: 200px;
+        border-radius: 10px;
+        border: solid 1px #D2AB68;
+    }
+
     
     
+}
+
+@media screen and (max-width: 750px) {
+
+    .box-dois .card h2 {
+        padding-top: 70px;
+        font-size: 50px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 100PX;
+        padding-right: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .box-dois .card h2 {
+        padding-top: 70px;
+        font-size: 50px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .box-dois .card h2 {
+        padding-top: 0px;
+        font-size: 40px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 63px;
+    }
 }
