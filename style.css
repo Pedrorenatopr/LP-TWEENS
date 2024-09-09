@@ -306,6 +306,40 @@ h1 {
         width: 200px;
     }
 
+    .container-sobre {
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;    
+    }
+    
+    .sobre .card  {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    
+    .sobre .card .texto {
+        width: 400px;
+    }
+    
+    
+    .sobre .card .img {
+        width: 400px;
+    }
+    
+    .sobre .card .img img {
+        width: 400px;
+    }
+    
+    
+    .sobre .card .texto p {
+        color: #000;
+        font-size: 31.945px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 51.112px */
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -504,6 +538,41 @@ h1 {
 
     .container-produtos .produtos .card img {
         width: 300px;
+    }
+
+    .container-sobre {
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;  
+        padding-left: 1em;  
+    }
+    
+    .sobre .card  {
+        display: grid;
+        justify-content: center;
+        align-items: center;  
+    }
+    
+    .sobre .card .texto {
+        width: 100%;
+    }
+    
+    
+    .sobre .card .img {
+        width: 100%;
+    }
+    
+    .sobre .card .img img {
+        width: 100%;
+    }
+    
+    
+    .sobre .card .texto p {
+        color: #000;
+        font-size: 31.945px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 51.112px */
     }
 
     
