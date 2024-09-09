@@ -179,6 +179,45 @@ h1 {
     border-radius: 5px;
 }
 
+.container-dois {
+    background-image: url(fundo-floral.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
+
+.box-dois {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-dois .card {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box-dois .card h2 {
+    text-align: center;
+    padding-top: 70px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.52);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 100px;
+    width: 1150px;
+    height: 270px;
+    background-image: url(fundo-dois.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+
 
 @media screen and (max-width: 1150px) {
 
