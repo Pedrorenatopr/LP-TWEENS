@@ -651,8 +651,7 @@ footer .card {
     .container-produtos .produtos h2 {
         padding-left: 50px;
         font-size: 30px;
-        color: #D2AB68;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
 
     .container-produtos .produtos .card img {
@@ -822,6 +821,15 @@ footer .card {
         margin-bottom: 50px;
     }
 
+    .container-produtos .produtos h2 {
+        padding-left: 1em;
+        font-size: 30px;
+    }
+
+    .destaque-produtos {
+        margin-left: 30px;
+    }
+
     .container-produtos .produtos .card img {
         width: 150px;
     }
@@ -894,6 +902,34 @@ footer .card {
         display: none;
     }
     
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .container-produtos .produtos h2 {
+        padding-left: 15px;
+        font-size: 30px;
+        padding-right: 10px;
+    }
+
+    .destaque-produtos {
+        margin-left: 15px;
+    }
+
+    .container-produtos .produtos .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+        justify-content: center;
+        gap: 5px;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-produtos .produtos .card img {
+        width: 100%;
+    }
 
 }
 
