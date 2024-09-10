@@ -850,10 +850,10 @@ footer .card {
     .contato {
         display: grid;
         justify-content: left;
-        gap: 50px;
+        gap: 40px;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 2em;
+        padding-left: 1em;
     }
 
     footer {
@@ -935,6 +935,12 @@ footer .card {
         padding-left: 5px;
         padding-right: 20px;
     }
+
+    .contato {
+
+
+    }
+
 
 }
 
