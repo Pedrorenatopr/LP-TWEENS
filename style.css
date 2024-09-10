@@ -113,17 +113,18 @@ nav button.menu.ativo span.dois {
 
 .container {
     display: flex;
-    background-image: url(img-loja.png);
+    background-image: url(img-loja-\ 1.png);
     background-repeat: no-repeat;
     background-size: 100vw;
-    background-color: rgb(0, 255, 89);
     justify-content: center;
+    height: 900px;
+    margin-top: 50px;
 }
 
 .box-principal {
     max-width: 1150px;
     display: flex;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .box-principal .card {
@@ -566,18 +567,18 @@ footer .card {
 
     .container {
         display: flex;
-        background-image: url(img-loja.png);
+        background-image: url(img-loja-\ 1.png);
         background-repeat: no-repeat;
         background-size: 100vw;
-        background-color: rgb(0, 255, 89);
         justify-content: center;
         padding-left: 1em;
+        height: 500px;
     }
     
     .box-principal {
         width: 100%;
         display: flex;
-        padding-top: 100px;
+        padding-top: 150px;
     }
     
     .box-principal .card {
@@ -747,6 +748,24 @@ footer .card {
     
 }
 
+@media screen and (max-width: 660px) {
+    .container {
+        display: flex;
+        background-image: url(img-loja-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        justify-content: center;
+        padding-left: 1em;
+    }
+    
+    .box-principal {
+        width: 100%;
+        display: flex;
+        padding-top: 150px;
+    }
+
+}
+
 @media screen and (max-width: 750px) {
 
     .box-dois .card h2 {
@@ -759,6 +778,7 @@ footer .card {
         padding-right: 100px;
         height: 100px;
     }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -853,7 +873,37 @@ footer .card {
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 350px) {
+    .box-dois .card h2 {
+        padding-top: 0px;
+        font-size: 40px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 63px;
+    }
+
+    .box-dois {
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        height: 400px;
+    }
+
+    .box-principal {
+        padding-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 364px) {
 
     .box-dois .card h2 {
         padding-top: 0px;
@@ -865,4 +915,54 @@ footer .card {
         padding-right: 20px;
         height: 63px;
     }
+
+    .box-dois {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .box-dois .card h2 {
+        padding-top: 0px;
+        font-size: 40px;
+        margin-top: 0px;
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 63px;
+    }
+
+    .box-dois {
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        height: 400px;
+    }
+
+    .box-principal {
+        padding-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .container-dois .box-dois .card .box-h2 h2 {
+        font-size: 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+
 }
