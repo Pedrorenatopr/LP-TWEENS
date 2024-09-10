@@ -356,10 +356,13 @@ footer {
 footer .card {
     display: flex;
     justify-content: center;
+    gap: 300px;
 }
 
 .texto-footer {
     width: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
 }
 
@@ -371,9 +374,24 @@ footer .card {
 
 
 
-.card-contato .card-dois {
+.card-dois-footer {
+    display: grid;
+    gap: 5px;
+
+}
+
+.copy {
     display: flex;
-    background-color: red;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.copy-um {
+    display: flex;
+    gap: 30px ;
 }
 
 
@@ -674,6 +692,57 @@ footer .card {
         padding-left: 3em;
     }
 
+    footer {
+        background: #221E42;
+        color: white;
+        padding-top: 100px;
+    }
+    
+    footer .card {
+        display: grid;
+        justify-content: left;
+        padding-left: 3em;
+        gap: 100px;
+    }
+    
+    .texto-footer {
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    
+    }
+    
+    .card-contato {
+        display: flex;
+        align-items: center;
+        gap: 20px ;
+    }
+    
+    
+    
+    .card-dois-footer {
+        display: grid;
+        gap: 5px;
+    
+    }
+    
+    .copy {
+        display: grid;
+        justify-content: left;
+        padding-left: 3.5em;
+        gap: 0px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .copy-um {
+        display: none;
+    }
+    
+
+
+
     
     
 }
@@ -732,8 +801,56 @@ footer .card {
         gap: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 1em;
+        padding-left: 2em;
     }
+
+    footer {
+        background: #221E42;
+        color: white;
+        padding-top: 100px;
+    }
+    
+    footer .card {
+        padding-left: 2em;
+        gap: 100px;
+    }
+    
+    .texto-footer {
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    
+    }
+    
+    .card-contato {
+        display: flex;
+        align-items: center;
+        gap: 20px ;
+    }
+    
+    
+    
+    .card-dois-footer {
+        display: grid;
+        gap: 5px;
+    
+    }
+    
+    .copy {
+        display: grid;
+        justify-content: left;
+        padding-left: 2em;
+        gap: 0px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .copy-um {
+        display: none;
+    }
+    
+
 }
 
 @media screen and (max-width: 360px) {
