@@ -936,9 +936,12 @@ footer .card {
         padding-right: 20px;
     }
 
-    .contato {
+    footer .card {
+        padding-left: 1em;
+    }
 
-
+    .copy {
+        padding-left: 1em;
     }
 
 
