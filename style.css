@@ -270,7 +270,8 @@ h1 {
     display: grid;
     justify-content: center;
     background-color: #F3F2F0;
-    margin-top: 100px;
+    margin-top: 200px;
+    padding-top: 50px;
 
 }
 
@@ -297,12 +298,12 @@ h1 {
 
 .container-sobre .sobre .card .texto h3 {
     color: #FF7A00;
+    font-size: 30px;
 }
 
 
 .texto-sobre {
     color: #000;
-    font-size: 31.945px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 51.112px */
@@ -453,7 +454,6 @@ footer .card {
     
     .texto-sobre {
         color: #000;
-        font-size: 31.945px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%; /* 51.112px */
@@ -688,7 +688,6 @@ footer .card {
     
     .texto-sobre {
         color: #000;
-        font-size: 31.945px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%; /* 51.112px */
