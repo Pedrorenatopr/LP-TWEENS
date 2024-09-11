@@ -113,18 +113,18 @@ nav button.menu.ativo span.dois {
 
 .container {
     display: flex;
-    background-image: url(img-loja-\ 1.png);
+    background-image: url(img-loja2.png);
     background-repeat: no-repeat;
     background-size: 100vw;
     justify-content: center;
     height: 900px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .box-principal {
     max-width: 1150px;
     display: flex;
-    padding-top: 300px;
+    padding-top: 350px;
 }
 
 .box-principal .card {
