@@ -120,7 +120,7 @@ nav button.menu.ativo span.dois {
 
 .container {
     display: flex;
-    background-image: url(img-loja2.png);
+    background-image: url(img-loja2_11zon\ \(4\).webp);
     background-repeat: no-repeat;
     background-size: 100vw;
     justify-content: center;
@@ -771,7 +771,7 @@ footer .card {
 @media screen and (max-width: 660px) {
     .container {
         display: flex;
-        background-image: url(img-loja-mobile.png);
+        background-image: url(img-loja-mobile_11zon.webp);
         background-repeat: no-repeat;
         background-size: 100vw;
         justify-content: center;
