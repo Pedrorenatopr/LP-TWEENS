@@ -366,7 +366,6 @@ h1 {
     gap: 8px;
     flex-shrink: 0;
     border-radius: 5px;
-
 }
 
 footer {
@@ -860,9 +859,23 @@ footer .card {
         display: grid;
         justify-content: left;
         gap: 40px;
-        padding-top: 50px;
+        padding-top: 0px;
         padding-bottom: 50px;
         padding-left: 1em;
+
+    }
+
+    
+    .contato .texto h2 {
+        color: #000;
+        font-size: 39.931px;
+        font-style: normal;
+        font-weight: 400;
+        padding-top: 60px;
+    }
+
+    .bt-contato {
+        margin-top: 0;
     }
 
     footer {
