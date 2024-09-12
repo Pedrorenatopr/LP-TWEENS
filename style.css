@@ -188,7 +188,7 @@ h1 {
 }
 
 .container-dois {
-    background-image: url(fundo-floral.png);
+    background-image: url(fundo-floral-dois.png);
     background-size: 100vw;
     background-repeat: no-repeat;
     margin-top: 50px;
@@ -230,10 +230,10 @@ h1 {
 .container-produtos {
     display: grid;
     justify-content: center;
-    background-image: url(fundo-floral-produtos.svg);
+    background-image: url(fundo-floral-dois.png);
     background-repeat: no-repeat;
     background-size: 100vw;
-    background-position: left;
+    background-position: bottom;
 }
 
 .produtos {
